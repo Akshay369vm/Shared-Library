@@ -1,3 +1,3 @@
-def call (name) {
-  sh "echo Hello $name"
+def call (string name) {
+  sh "echo Hello ${name}"
 }
